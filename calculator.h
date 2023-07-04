@@ -123,6 +123,7 @@ string* convert(string infix, int& size)
 			s.pop();
 		}
 	}
+	delete []arr;
 	return postfix;
 }
 
@@ -154,5 +155,6 @@ int ComputePostfix(string* postfix, int size) {
 				s.push(to_string(pow(n1, n2)));
 		}
 	}
+	delete []postfix;
 	return stoi(s.pop());
 }
