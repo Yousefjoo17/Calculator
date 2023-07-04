@@ -1,10 +1,6 @@
 #include<iostream>
 using namespace std;
-#include"2D_Array.h"
-#include"Linkedlist.h"
-#include"Doubly_LinkedList.h"
-#include"CircularLinkedList.h"
-#include"DoublyCircularLinkedList.h"
+
 #include"Stack.h"
 #include"calculator.h"
 
